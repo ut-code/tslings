@@ -1,8 +1,14 @@
 {
   "name": "tslings",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "bin": {
+    "tslings": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsx index.ts",
     "build": "tsc --outDir dist",
@@ -13,9 +19,9 @@
     "url": "git+https://github.com/ut-code/tslings.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "author": "ut-code",
+  "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ut-code/tslings/issues"
   },
